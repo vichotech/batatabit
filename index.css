@@ -1,0 +1,353 @@
+@import 'tokens.css';
+@font-face {
+    font-family: 'LucideIcons';
+    src: url(https://unpkg.com/lucide-static@latest/font/Lucide.ttf) format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "DM Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    min-width: 320px;
+    padding: 36px 0;
+    background: linear-gradient(209deg, var(--black) 17%, var(--primary-50) 100%);
+}
+
+header img {
+    /* margin-top: 60px; */
+    width: 152px;
+}
+
+.title-cont {
+    width: 88%;
+    min-width: 280px;
+    max-width: 900px;
+}
+
+.title-cont h1, .title-cont h2  {
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+}
+
+.title-cont p {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+.header__title-cont p {
+    margin-bottom: 26px;
+    color: var(--primary-90);
+}
+
+.header__title-cont a {
+    height: 48px;
+    padding: 0 16px;
+    background: var(--off-white);
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    gap: 12px;
+    bottom: -18px;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.header__title-cont a img {
+    width: 20px;
+}
+
+main {
+    background: var(--off-white);
+}
+
+.exchange-section, .features-section, .plans-section {
+    padding: 58px 0;
+}
+
+.exchange-section__tables-cont {
+    padding: 12px 0;
+}
+
+.exchange-section__title-cont p, .plans-section__title-cont p {
+    color: var(--text-grey);
+}
+
+.exchange-section__tables-cont {
+    padding: 0 62px 8px;
+    gap: 48px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
+.table-cont {
+    gap: 10px;
+    scroll-snap-align: center;
+}
+
+.table-title {
+    width: 70%;
+    min-width: 197px;
+    max-width: 300px;
+    padding: 0 12px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+}
+
+.currencies-table-cont__title {
+    color: var(--primary-50);
+}
+
+.fees-table-cont__title {
+    color: var(--secondary-50);
+}
+
+table {
+    font-family: Inter, sans-serif;
+    width: 70%;
+    min-width: 197px;
+    max-width: 300px;
+}
+
+td {
+    height: 40px;
+    padding: 0 12px;
+    background: #fff;
+}
+
+.cell--left {
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.cell--right {
+    /* width: 95px; */
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: var(--text-grey);
+    gap: 10px;
+}
+
+.cell--top-left {
+    border-top-left-radius: 8px;
+    -webkit-border-top-left-radius: 8px;
+    -moz-border-top-left-radius: 8px;
+    -ms-border-top-left-radius: 8px;
+    -o-border-top-left-radius: 8px;
+}
+
+.cell--top-right {
+    border-top-right-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+    -moz-border-top-right-radius: 8px;
+    -ms-border-top-right-radius: 8px;
+    -o-border-top-right-radius: 8px;
+}
+
+.cell--bottom-left {
+    border-bottom-left-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -moz-border-bottom-left-radius: 8px;
+    -ms-border-bottom-left-radius: 8px;
+    -o-border-bottom-left-radius: 8px;
+}
+
+.cell--bottom-right {
+    border-bottom-right-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    -moz-border-bottom-right-radius: 8px;
+    -ms-border-bottom-right-radius: 8px;
+    -o-border-bottom-right-radius: 8px;
+}
+
+.currencies-table-cont__date {
+    height: 30px;
+    padding: 0 8px;
+    color: var(--warm-black);
+    background: var(--primary-90);
+}
+
+.fees-table-cont__date {
+    height: 30px;
+    padding: 0 8px;
+    color: var(--warm-black);
+    background: var(--secondary-95);
+}
+
+.label-span {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.date-span {
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.brand-icon {
+    bottom: -12px;
+}
+
+.features-section {
+    background: var(--black);
+}
+
+.features-section__title-cont p {
+    color: var(--text-grey);
+}
+
+.features-section__cards-cont {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.features-section__card {
+    padding: 16px;
+    background: var(--warm-black);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+    width: 88%;
+    min-width: 290px;
+    max-width: 900px;
+    gap: 10px;
+}
+
+.features-section__card img {
+    width: 24px;
+}
+
+.card__title {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.card__description {
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(--text-grey);
+}
+
+.bitcon-banner-section {
+    height: 387px;
+    background-image: url("./assets/img/bitcoinbaby2x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bitcoin-banner__text {
+    top: 64px;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+}
+
+.plans-section__cards-cont {
+    padding: 16px 65px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    gap: 8px;
+}
+
+.plan-card {
+    width: 70%;
+    min-width: 190px;
+    max-width: 220px;
+    padding: 32px 16px 24px;
+    background: #fff;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    gap: 18px;
+    scroll-snap-align: center;
+}
+
+.plan-card__payment {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+.plan-card__price {
+    font-family: Inter, sans-serif;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.plan-card__price .currency {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.plan-card__price .value {
+    font-weight: 700;
+    font-size: 5.2rem;
+    line-height: 4rem;
+    letter-spacing: -0.4rem;
+}
+
+.plan-card.recomended::before {
+    content: 'Recomendado';
+    display: block;
+    padding: 8px;
+    position: absolute;
+    top: -15px;
+    background: var(--primary-50);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.plan-card__description {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: var(--text-grey);
+}
+
+.plan-card__btn {
+    height: 48px;
+    padding: 0 16px;
+    background: var(--off-white);
+    border: 2px var(--primary-50) solid;
+    gap: 8px;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+footer {
+    height: 150px;
+    padding: 0 8px;
+    background: var(--primary-50);
+    justify-content: space-evenly;
+}
+
+.links-cont {
+    gap: 8px;
+}
+
+.links-cont a {
+    font-weight: 500;
+    font-size: 1.4rem;
+}

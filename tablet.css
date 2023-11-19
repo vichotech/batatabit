@@ -1,0 +1,15 @@
+.exchange-section__tables-cont, .plans-section__cards-cont {
+    justify-content: center;
+    overflow: hidden;
+}
+
+.features-section__cards-cont {
+    width: 720px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.features-section__card {
+    width: 44%;
+}

@@ -1,0 +1,35 @@
+:root {
+    --bitcoin-orange: #f7931a;
+    --soft-orange: #ffe9d5;         /* --primary-90 */
+    --secondary-blue: #1a9af7;
+    --soft-blue: #e7f5ff;           /* --secondary-95 */
+    --warm-black: #282623;
+    --black: #201e1c;
+    --off-white: #faf8f7;
+    --grey: #bababa;
+    --text-grey: #757575;
+
+    --primary-5: #190f03;
+    --primary-10: #311d05;
+    --primary-20: #633b0a;
+    --primary-30: #945810;
+    --primary-40: #c67615;
+    --primary-50: #f7931a;
+    --primary-60: #f9a948;
+    --primary-70: #fabe76;
+    --primary-80: #fcd4a3;
+    --primary-90: #fde9d1;
+    --primary-95: #fef4e8;
+
+    --secondary-5: #030f19;
+    --secondary-10: #051f31;
+    --secondary-20: #0a3e63;
+    --secondary-30: #105c94;
+    --secondary-40: #157bc6;
+    --secondary-50: #1a9af7;
+    --secondary-60: #48aef9;
+    --secondary-70: #76c2fa;
+    --secondary-80: #a3d7fc;
+    --secondary-90: #d1ebfd;
+    --secondary-95: #e8f5fe;
+}

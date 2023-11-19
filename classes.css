@@ -1,0 +1,89 @@
+@import 'tokens.css';
+
+.block {
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+.f-d_row {
+    flex-direction: row;
+}
+
+.f-d_col {
+    flex-direction: column;
+}
+
+.j-c_center {
+    justify-content: center;
+}
+
+.a-i_center {
+    align-items: center;
+}
+
+.a-c_center {
+    align-content: center;
+}
+
+.g_24 {
+    gap: 24px;
+}
+
+.g_28 {
+    gap: 28px;
+}
+
+.g_32 {
+    gap: 32px;
+}
+
+.g_36 {
+    gap: 36px;
+}
+
+.w_100 {
+    width: 100%;
+}
+
+.t-a_center {
+    text-align: center;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.b-r_4 {
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.b-r_8 {
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.c-white {
+    color: #fff;
+}
+
+.c-grey {
+    color: var(--grey);
+}
+
+.c-black {
+    color: var(--black);
+}
