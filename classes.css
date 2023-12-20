@@ -76,6 +76,14 @@
     -o-border-radius: 8px;
 }
 
+.b-r_pill {
+    border-radius: 444px;
+    -webkit-border-radius: 444px;
+    -moz-border-radius: 444px;
+    -ms-border-radius: 444px;
+    -o-border-radius: 444px;
+}
+
 .c-white {
     color: #fff;
 }

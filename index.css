@@ -21,23 +21,41 @@ a {
 }
 
 header {
+    height: 100vh;
     min-width: 320px;
     padding: 36px 0;
-    background: linear-gradient(209deg, var(--black) 17%, var(--primary-50) 100%);
+    background-image: url(./assets/img/hero_5.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--primary-10);
+    background-blend-mode: soft-light;
 }
 
-header img {
-    /* margin-top: 60px; */
-    width: 152px;
+.hero h1 {
+    font-size: 3.2rem;
+    line-height: 3.4rem;
 }
 
-.title-cont {
-    width: 88%;
+.hero img {
+    width: 156px;
+}
+
+.hero p {
+    font-size: 1.6rem;
+}
+
+.hero span.orange {
+    color: var(--primary-50);
+}
+
+.header__title-cont, .title-cont {
+    width: 80%;
     min-width: 280px;
     max-width: 900px;
 }
 
-.title-cont h1, .title-cont h2  {
+.title-cont h2  {
     font-weight: 600;
     font-size: 2.4rem;
     line-height: 2.6rem;
@@ -56,13 +74,17 @@ header img {
 
 .header__title-cont a {
     height: 48px;
-    padding: 0 16px;
-    background: var(--off-white);
+    padding: 0 20px;
+    background: var(--primary-50);
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
     gap: 12px;
-    bottom: -18px;
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+    transition: all ease-out .2s;
+}
+
+.header__title-cont a:hover {
+    background: var(--primary-60);
 }
 
 .header__title-cont a img {
@@ -244,17 +266,17 @@ td {
 
 .bitcon-banner-section {
     height: 387px;
-    background-image: url("./assets/img/bitcoinbaby2x.png");
+    background-image: url("./assets/img/hero_6.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-color: var(--primary-10);
+    background-blend-mode: soft-light;
 }
 
 .bitcoin-banner__text {
-    top: 64px;
     font-weight: 700;
-    font-size: 2.4rem;
-    line-height: 2.6rem;
+    font-size: 3.2rem;
 }
 
 .plans-section__cards-cont {
